@@ -1,0 +1,20 @@
+{
+  "name": "herokunodetest",
+  "version": "0.0.0",
+  "description": "",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "logfmt": "^1.1.2",
+    "express": "^4.4.1"
+  }
+  {
+	"engines": {
+	  "node": "0.10.28"
+	 }
+  }
+}
