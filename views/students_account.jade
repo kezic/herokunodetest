@@ -1,0 +1,12 @@
+extends studentslayout
+
+block pagecontent
+  h1= title
+  form#formAddUser(name="adduser",method="post",action="/adduser")
+    input#inputUserName(type="text", placeholder="username", name="username")
+    input#inputUserName(type="text", placeholder="firstname", name="firstname")
+    input#inputUserName(type="text", placeholder="lastname", name="lastname")
+    input#inputUserEmail(type="text", placeholder="useremail", name="useremail")
+
+    div
+      button#btnSubmit(type="submit") Update

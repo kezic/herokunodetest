@@ -1,0 +1,24 @@
+extends studentslayout
+
+block pagecontent
+  h1= title
+  form#formAddUser(name="adduser",method="post",action="/updateprofile")
+
+
+    div Biographical
+    textarea(name="bio")
+
+    div Income
+    textarea(name="income")
+
+    div Extracurriculars
+    textarea(name="extracurriculars")
+    
+    div Special Circumstances
+    textarea(name="specialcircumstances")
+    
+    div Rec letters
+    textarea(name="recletters")
+
+    div
+      button#btnSubmit(type="submit") Update
